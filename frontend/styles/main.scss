@@ -1,0 +1,546 @@
+body {
+    background-image: url(../images/bg.JPG);
+}
+
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar {
+    background-color: #21D19F;
+
+    .nav-link {
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    :hover {
+        color: #3498DB;
+    }
+
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+// Akhir Navbar
+
+
+// Carousel
+.carousel {
+    height: 450px;
+    background-color: #45B69C;
+    color: white;
+
+    h1 {
+        font-family: 'Roboto';
+    }
+
+    p {
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+}
+
+// Akhir Carousel
+
+
+// Brand
+.brand {
+    img {
+        max-height: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+// Features
+
+.features {
+    background-color: #DBDBDB;
+
+    h3 {
+        font-family: 'Lora';
+        color: #3498DB;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: 'Roboto';
+    }
+
+
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+// Akhir Futures
+
+// Kololm Service
+.service-info {
+    .service-head {
+        h3 {
+            color: #F5CC30;
+            font-family: 'Lora';
+            font-weight: bold;
+        }
+
+        p {
+            color: #8D8D8D;
+            font-family: 'Montserrat';
+        }
+    }
+
+    .service-icon {
+
+        .float-left {
+
+            .fa-drafting-compass,
+            .fa-pencil-ruler,
+            .fa-cog,
+            .fa-archive,
+            .fa-wrench {
+                color: #21D19F;
+                width: 80px;
+                height: 80px;
+            }
+
+            :hover {
+                color: #3498DB;
+            }
+        }
+
+        .media-body {
+            margin-left: 50px;
+            padding-bottom: 50px;
+
+            h5 {
+                font-family: 'Montserrat';
+                font-size: 19px;
+                color: #F5CC30;
+                font-weight: bold;
+            }
+
+            li {
+                color: #3498DB;
+            }
+        }
+    }
+}
+
+// AKhir Kolom Service
+
+// Awal Footer
+footer {
+    p {
+        color: #ADADAD;
+    }
+
+    .nav-link {
+        color: #45B69C;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .nav-link:hover {
+        color: #3498DB;
+    }
+
+}
+
+// Akhir Footer
+
+
+// Sidebar Produk
+
+.card-header-judul {
+    text-align: center;
+    background-color: #45B69C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: white;
+}
+
+.card-header {
+    background-color: #DBDBDB;
+    color: #3498DB;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-header:hover {
+    background-color: #EFEEE9;
+}
+
+.list-group {
+
+    color: #3498DB;
+}
+
+// Akhir Sidebar Produk
+
+
+// Product 
+.page-header {
+
+    h1 {
+        font-family: 'Montserrat';
+        border-bottom: 5px solid #21D19F;
+        border-bottom-style: dotted;
+        color: #3498DB;
+        font-size: 25px;
+        font-family: 'Montserrat';
+    }
+
+}
+
+.produk-item {
+    p {
+        background-color: #1ABC9C;
+        text-align: center;
+        width: 247px;
+        height: 31px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        padding-top: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+}
+
+.produk-img {
+    transition: box-shadow .3s;
+
+}
+
+.produk-img:hover {
+    box-shadow: 0 0 10px #000000;
+}
+
+// akhir Procduct
+
+// Single Product
+.btn-product {
+    margin: 50px 0;
+
+    .btn {
+        display: block;
+        margin: 30px 0;
+        color: white;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        background-color: #3498DB;
+    }
+
+    h3 {
+        margin-left: 70px;
+    }
+}
+
+
+.btn:hover {
+    background-color: #21D19F;
+}
+
+// Akhir Single Product
+
+
+// Produk Description
+.product-description {
+    background-color: #EFEEE9;
+    height: 350px;
+
+    .tab-content {
+        background-color: white;
+        border: 1px solid #dee2e6;
+        border-top: 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 200;
+        color: rgb(87, 86, 86);
+        line-height: 28px;
+    }
+}
+
+// Akhir Produk Decription
+
+
+// Produk kategori
+
+.produk-category {
+
+    color: #3498DB;
+    font-family: 'Montserrat';
+
+    p {
+        color: #F5CC30;
+    }
+
+    .figure h4 {
+        color: white;
+        font-size: 20px;
+        font-family: 'Roboto';
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .figure {
+        transition: box-shadow .3s;
+    }
+
+    .figure:hover {
+        box-shadow: 0 0 10px #3498DB;
+    }
+
+    .figure-caption {
+        background-color: #1ABC9C;
+        text-align: center;
+        width: 352px;
+        height: 31px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        padding-top: 5px;
+    }
+
+}
+
+
+// About US
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.office-head {
+    box-shadow: 0 0 10px #3498DB
+}
+
+.header-contact {
+    text-align: center;
+    background-color: #45B69C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: white;
+
+
+
+}
+
+.kontak-perushaan {
+    font-size: 15px;
+    font-family: 'Roboto';
+    padding-top: 20px;
+    background-color: #EFEEE9;
+
+}
+
+.head-office h5 {
+    border-bottom: 2px solid #21D19F;
+}
+
+// Akhir About
+
+
+// Awal Karir
+.header-karir {
+    h5 {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50px;
+        font-family: 'Montserrat';
+        color: #3498DB;
+        font-weight: bold;
+
+    }
+
+    .underline {
+        border-bottom: 5px solid #21D19F;
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.job-decription {
+    background-color: #EFEEE9;
+    margin-top: 50px;
+    border-radius: 15px;
+
+    h5 {
+        text-align: center;
+    }
+
+    p {
+        margin-left: 30px;
+    }
+
+    li {
+        margin-left: 50px;
+    }
+}
+
+// Akhir Karir
+
+// Awal News
+.img-regular-event {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rectangle-border {
+    border: 1px solid #CCCC;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+
+    a {
+        text-decoration: none;
+
+        :hover {
+            color: #F5CC30;
+        }
+    }
+
+}
+
+.konten {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    h4 {
+        color: #21D19F;
+        font-size: 20px;
+    }
+}
+
+// Akhir News
+
+// Awal Support
+.header-support {
+    h5 {
+        text-align: left;
+        font-size: 30px;
+        padding-top: 50px;
+        font-family: 'Montserrat';
+        color: #3498DB;
+        font-weight: bold;
+
+    }
+
+    .underline {
+        border-bottom: 5px solid #21D19F;
+        width: 185px;
+        margin-left: 2px;
+        margin-right: auto;
+    }
+}
+
+
+.media-support {
+    padding-top: 30px;
+
+    .fa-building,
+    .fa-phone,
+    .fa-fax,
+    .fa-envelope {
+        color: #21D19F;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.media-body-support {
+    font-family: 'Montserrat';
+    margin-left: 50px;
+
+
+}
+
+.centre-kontent {
+    padding-top: 100px;
+}
+
+// Akhir Support
+
+
+// Awal Service Centre
+
+
+.header-service {
+    h5 {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50px;
+        font-family: 'Montserrat';
+        color: #3498DB;
+        font-weight: bold;
+
+    }
+
+    .underline {
+        border-bottom: 5px solid #21D19F;
+        width: 185px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#mapid {
+    height: 180px;
+}
+
+// Akhir Service Centre
